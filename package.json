@@ -7,7 +7,7 @@
     "build:js": "mkdir build && babel ./index.js | uglifyjs --compress --mangle > build/index.min.js",
     "build": "npm run clean && npm run build:js && npm run build:css && npm run update:files && npm run copy:assets",
     "clean": "rm -rf build",
-    "copy:assets": "cp -a assets/. build/assets",
+    "copy:assets": "mkdir build/assets && cp -R assets/* build/",
     "start": "http-server build -c-1",
     "update:files": "JS_VERSION=`md5sum build/index.min.js | cut -c1-7` CSS_VERSION=`md5sum build/style.min.css | cut -c1-7` envsubst < index.html > build/index.html",
     "deploy": "gh-pages -d build",
