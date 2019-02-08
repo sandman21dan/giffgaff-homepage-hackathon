@@ -589,7 +589,7 @@ footer,nav,section{
     min-width:933px;
 }
  #logo{
-    background:url(http://127.0.0.1:8080/images/layout/logo.svg) no-repeat;
+    background:url(images/layout/logo.svg) no-repeat;
     display:block;
     height:57px;
     width:165px;
@@ -625,7 +625,7 @@ footer,nav,section{
     }
 }
  footer .footer-background .center{
-    background:url(http://127.0.0.1:8080/images/layout/footer/noise_footer.svg) center center no-repeat;
+    background:url(images/layout/footer/noise_footer.svg) center center no-repeat;
     width:914px;
     height:69px;
     margin:auto;
@@ -862,7 +862,7 @@ footer,nav,section{
     font-weight:400;
 }
  .section.cream-pattern{
-    background:url(http://127.0.0.1:8080/images/layout/cream_pattern.jpg);
+    background:url(images/layout/cream_pattern.jpg);
 }
  .section .heading-v2{
     margin:0;
@@ -978,7 +978,7 @@ footer,nav,section{
     position:absolute;
     width:16px;
     height:16px;
-    background:url(http://127.0.0.1:8080/svg/doodle-bottom-right.svg) no-repeat top;
+    background:url(svg/doodle-bottom-right.svg) no-repeat top;
     -webkit-animation:doodle-btn-doodle-animation-right .3s ease-in-out;
     animation:doodle-btn-doodle-animation-right .3s ease-in-out;
     -webkit-animation-fill-mode:both;
@@ -989,7 +989,7 @@ footer,nav,section{
     position:absolute;
     width:16px;
     height:16px;
-    background:url(http://127.0.0.1:8080/svg/doodle-top-left.svg) no-repeat top;
+    background:url(svg/doodle-top-left.svg) no-repeat top;
     -webkit-animation:doodle-btn-doodle-animation-left .3s ease-in-out;
     animation:doodle-btn-doodle-animation-left .3s ease-in-out;
     -webkit-animation-fill-mode:both;
@@ -1080,7 +1080,7 @@ footer,nav,section{
     border-radius:0;
 }
  .modal .close{
-    background-image:url(http://127.0.0.1:8080/styleguide/images/sprites/svg-common.1549378335785.svg);
+    background-image:url(styleguide/images/sprites/svg-common.1549378335785.svg);
     background-repeat:no-repeat;
     background-size:auto 100%;
     display:inline-block;
@@ -1187,7 +1187,7 @@ footer,nav,section{
 }
  ul.topnav li:first-child .container .banner-promote{
     margin-top:15px;
-    background:url(http://127.0.0.1:8080/images/blank.gif) no-repeat 0 center;
+    background:url(images/blank.gif) no-repeat 0 center;
     width:100%;
     height:160px;
     background-size:100%;
@@ -1201,7 +1201,7 @@ footer,nav,section{
     top:246px;
 }
  .navbar .topnav>li .top-nav-member-icon{
-    background-image:url(http://127.0.0.1:8080/styleguide/images/sprites/svg-common.1549378335785.svg);
+    background-image:url(styleguide/images/sprites/svg-common.1549378335785.svg);
     background-repeat:no-repeat;
     background-size:auto 100%;
     display:inline-block;
@@ -1247,7 +1247,7 @@ footer,nav,section{
     display:none;
 }
  .navbar .topnav>li a.topmenu:focus .top-nav-member-icon,.navbar .topnav>li a.topmenu:hover .top-nav-member-icon,.navbar .topnav>li:focus>a.topmenu .top-nav-member-icon,.navbar .topnav>li:hover>a.topmenu .top-nav-member-icon{
-    background-image:url(http://127.0.0.1:8080/styleguide/images/sprites/svg-common.1549378335785.svg);
+    background-image:url(styleguide/images/sprites/svg-common.1549378335785.svg);
     background-repeat:no-repeat;
     background-size:auto 100%;
     display:inline-block;
@@ -1260,7 +1260,7 @@ footer,nav,section{
     outline:0;
 }
  .navbar .topnav>li a.topmenu:focus .top-nav-member-icon,.navbar .topnav>li a.topmenu:hover .top-nav-member-icon,.navbar .topnav>li a:focus .top-nav-member-icon,.navbar .topnav>li a:hover .top-nav-member-icon{
-    background-image:url(http://127.0.0.1:8080/styleguide/images/sprites/svg-common.1549378335785.svg);
+    background-image:url(styleguide/images/sprites/svg-common.1549378335785.svg);
     background-repeat:no-repeat;
     background-size:auto 100%;
     display:inline-block;
@@ -1550,14 +1550,14 @@ footer,nav,section{
     width:100px;
     height:100px;
     background-size:1800px;
-    background-image:url(http://127.0.0.1:8080/images/sprites/spread.svg);
+    background-image:url(images/sprites/spread.svg);
 }
  .bundle-allowances .data .icon-30x30-bullet-BD030,.bundle-allowances .minutes .icon-30x30-bullet-BD030,.bundle-allowances .texts .icon-30x30-bullet-BD030{
     display:inline-block;
     width:30px;
     height:30px;
     background-size:1560px;
-    background-image:url(http://127.0.0.1:8080/images/sprites/allowances.svg);
+    background-image:url(images/sprites/allowances.svg);
 }
  .svg-goodybags-180x180{
     width:180px;
@@ -1566,7 +1566,7 @@ footer,nav,section{
  .svg-goodybags-180x180.sparkle-200x200:after{
     content:"";
     position:relative;
-    background:url(http://127.0.0.1:8080/svg/goodybag_sparkle.svg);
+    background:url(svg/goodybag_sparkle.svg);
     display:inline-block;
     height:200px;
     width:200px;
@@ -1574,7 +1574,7 @@ footer,nav,section{
     bottom:10px;
 }
  .svg-common{
-    background-image:url(http://127.0.0.1:8080/styleguide/images/sprites/svg-common.1549378335785.svg);
+    background-image:url(styleguide/images/sprites/svg-common.1549378335785.svg);
     background-repeat:no-repeat;
     background-size:auto 100%;
     display:inline-block;
@@ -1652,7 +1652,7 @@ footer,nav,section{
     background-position:66.66666667% 0;
 }
  .svg-goodybags{
-    background-image:url(http://127.0.0.1:8080/styleguide/images/sprites/svg-goodybags.1549378335785.svg);
+    background-image:url(styleguide/images/sprites/svg-goodybags.1549378335785.svg);
     background-repeat:no-repeat;
     background-size:auto 100%;
     display:inline-block;
@@ -1677,7 +1677,7 @@ footer,nav,section{
     height:136px;
 }
  .heading-v2{
-    background:url(http://127.0.0.1:8080/styleguide/svg/heading.svg) no-repeat 0 20px;
+    background:url(styleguide/svg/heading.svg) no-repeat 0 20px;
     background-size:100% 75%;
     display:inline-block;
     overflow:visible;
@@ -1691,20 +1691,20 @@ footer,nav,section{
     bottom:0;
 }
  .heading-v2.pink{
-    background-image:url(http://127.0.0.1:8080/styleguide/svg/heading_pink.svg);
+    background-image:url(styleguide/svg/heading_pink.svg);
 }
  .heading-v2.green{
-    background-image:url(http://127.0.0.1:8080/styleguide/svg/heading_green.svg);
+    background-image:url(styleguide/svg/heading_green.svg);
 }
  .heading-v2.bundle_BD030{
     color:#fff;
-    background-image:url(http://127.0.0.1:8080/styleguide/svg/heading_BD024.svg);
+    background-image:url(styleguide/svg/heading_BD024.svg);
 }
  h2.heading-v2{
     background-size:100% 70%;
 }
  .icon-24x24-phones{
-    background-image:url(http://127.0.0.1:8080/images/sprites/24x24_9013f96569.png);
+    background-image:url(images/sprites/24x24_9013f96569.png);
     background-repeat:no-repeat;
     -webkit-background-size:182px 182px;
     -moz-background-size:182px 182px;
@@ -1712,7 +1712,7 @@ footer,nav,section{
 }
  @media screen and (-webkit-min-device-pixel-ratio:1),screen and (min--moz-device-pixel-ratio:1),screen and (-o-min-device-pixel-ratio:100/100),screen and (min-device-pixel-ratio:1),screen and (min-resolution:1dppx){
      .icon-24x24-phones{
-        background-image:url(http://127.0.0.1:8080/images/sprites/24x24_9013f96569.png);
+        background-image:url(images/sprites/24x24_9013f96569.png);
     }
 }
  .icon-24x24-phones{
@@ -1721,7 +1721,7 @@ footer,nav,section{
     height:24px;
 }
  .icon-35x35-my-giffgaff_active{
-    background-image:url(http://127.0.0.1:8080/images/sprites/35x35_e7cb80ba0e.png);
+    background-image:url(images/sprites/35x35_e7cb80ba0e.png);
     background-repeat:no-repeat;
     -webkit-background-size:524px 524px;
     -moz-background-size:524px 524px;
@@ -1729,12 +1729,12 @@ footer,nav,section{
 }
  @media screen and (-webkit-min-device-pixel-ratio:1),screen and (min--moz-device-pixel-ratio:1),screen and (-o-min-device-pixel-ratio:100/100),screen and (min-device-pixel-ratio:1),screen and (min-resolution:1dppx){
      .icon-35x35-my-giffgaff_active{
-        background-image:url(http://127.0.0.1:8080/images/sprites/35x35_e7cb80ba0e.png);
+        background-image:url(images/sprites/35x35_e7cb80ba0e.png);
     }
 }
  @media screen and (-webkit-min-device-pixel-ratio:2),screen and (min--moz-device-pixel-ratio:2),screen and (-o-min-device-pixel-ratio:200/100),screen and (min-device-pixel-ratio:2),screen and (min-resolution:2dppx){
      .icon-35x35-my-giffgaff_active{
-        background-image:url(http://127.0.0.1:8080/images/sprites/35x35@2x_e7cb80ba0e.png);
+        background-image:url(images/sprites/35x35@2x_e7cb80ba0e.png);
     }
 }
  .icon-35x35-my-giffgaff_active{
@@ -1743,7 +1743,7 @@ footer,nav,section{
     height:35px;
 }
  .svg-home-page{
-    background-image:url(http://127.0.0.1:8080/styleguide/images/sprites/svg-home-page.1549378335785.svg);
+    background-image:url(styleguide/images/sprites/svg-home-page.1549378335785.svg);
     background-repeat:no-repeat;
     background-size:auto 100%;
     display:inline-block;
@@ -1952,7 +1952,7 @@ footer,nav,section{
     position:absolute;
     width:180px;
     height:90px;
-    background:url(http://127.0.0.1:8080/svg/awards/uSwitch_2018_w.svg) no-repeat 0 center;
+    background:url(svg/awards/uSwitch_2018_w.svg) no-repeat 0 center;
     background-size:100%;
     display:block;
     margin-top:30px;
@@ -1961,7 +1961,7 @@ footer,nav,section{
  #home-page .uswitch-logo-blue{
     width:220px;
     height:90px;
-    background:url(http://127.0.0.1:8080/svg/awards/uSwitch_2018.svg) no-repeat 0 center;
+    background:url(svg/awards/uSwitch_2018.svg) no-repeat 0 center;
     background-size:100%;
     display:block;
     left:75%;
@@ -1977,7 +1977,7 @@ footer,nav,section{
     white-space:nowrap;
 }
  #home-page .section1{
-    background:url(http://127.0.0.1:8080/images/content/home/hp_top_desktop.jpg);
+    background:url(images/content/home/hp_top_desktop.jpg);
     background-size:cover;
     height:350px;
     border-bottom:6px solid #fff;
@@ -2059,7 +2059,7 @@ footer,nav,section{
     }
 }
  .section-sell-for-more{
-    background:url(http://127.0.0.1:8080/images/layout/noise-top.svg) center top no-repeat;
+    background:url(images/layout/noise-top.svg) center top no-repeat;
     background-repeat-x:repeat;
     background-size:100%;
     background-color:#fff;
@@ -2398,7 +2398,7 @@ footer,nav,section{
         top:10px;
     }
      .nav-collapse .nav>div.banner-promote{
-        background:url(http://127.0.0.1:8080/images/blank.gif) no-repeat 0 center;
+        background:url(images/blank.gif) no-repeat 0 center;
         background-size:93%;
         display:block;
         height:150px;
@@ -2668,7 +2668,7 @@ footer,nav,section{
         margin-bottom:30px;
     }
      #home-page .section1{
-        background:url(http://127.0.0.1:8080/images/content/home/hp_top_mobile.jpg);
+        background:url(images/content/home/hp_top_mobile.jpg);
         background-size:cover;
         height:280px;
         margin-bottom:6px;
@@ -2678,7 +2678,7 @@ footer,nav,section{
         display:initial;
     }
      .eu-zone-countries-flags{
-        background:url(http://127.0.0.1:8080/images/content/roaming/eurozone_flags_mobile.png) no-repeat;
+        background:url(images/content/roaming/eurozone_flags_mobile.png) no-repeat;
         height:591px;
         max-width:284px;
         width:auto;
@@ -2774,7 +2774,7 @@ footer,nav,section{
         margin-top:15px;
     }
      .section-sell-for-more{
-        background-image:url(http://127.0.0.1:8080/images/layout/noise-top_m.svg);
+        background-image:url(images/layout/noise-top_m.svg);
     }
      .section-sell-for-more .marketplace-usp>div{
         text-align:left;
