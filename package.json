@@ -5,10 +5,11 @@
   "scripts": {
     "build:css": "cleancss -o build/style.min.css style.css",
     "build:js": "mkdir build && babel ./index.js | uglifyjs --compress --mangle > build/index.min.js",
-    "build": "npm run build:js && npm run build:css",
+    "build": "npm run clean && npm run build:js && npm run build:css && cp index.html build/",
     "clean": "rm -rf build",
     "start": "http-server -c-1",
     "update:files": "JS_VERSION=`md5sum index.min.js | cut -c1-7` CSS_VERSION=`md5sum style.min.css | cut -c1-7` envsubst < index.html",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Perez",
@@ -18,6 +19,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "clean-css-cli": "^4.2.1",
+    "gh-pages": "^2.0.1",
     "http-server": "^0.11.1",
     "uglify-js": "^3.4.9"
   }
