@@ -1,5 +1,5 @@
-# matrix-click-average
+# giffgaff-homepage-hackathon
 
-An average calculation of many clicks on a graph matrix
+A hackathon on making giffgaff's homepage as fast as possible
 
-## [Demo](https://sandman21dan.github.io/matrix-click-average/)
+## [Demo](https://sandman21dan.github.io/giffgaff-homepage-hackathon/)
